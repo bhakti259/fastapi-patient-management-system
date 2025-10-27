@@ -24,13 +24,20 @@ Setup Instructions
 
 API Endpoints
 Method	Endpoint	Description
-GET	/	Root welcome message
-GET	/view	Retrieve all patients
-GET	/patient/{patient_id}	Get details of a specific patient
-POST	/create	Add a new patient
-PUT	/edit/{patient_id}	Edit an existing patient
-DELETE	/delete/{patient_id}	Remove a patient record
-GET	/sort?sort_by=bmi&order=desc	Sort patients by BMI or other fields
+GET	/	Root 
+  welcome message
+GET	/view
+  Retrieve all patients
+GET	/patient/{patient_id}	
+  Get details of a specific patient
+POST	/create	
+  Add a new patient
+PUT	/edit/{patient_id}	
+  Edit an existing patient
+DELETE	/delete/{patient_id}	
+  Remove a patient record
+GET	/sort?sort_by=bmi&order=desc	
+  Sort patients by BMI or other fields
 
 
 Author
